@@ -1,0 +1,222 @@
+:root {
+    --main-color:#2F303A ;
+    --akcent-color:#2196F3;
+    --font-dark: #212121 ;
+    --font-middle:#757575 ;
+    --font-light: #F5F4FA;
+
+}
+.body{
+    font-family: 'Roboto';
+    width: 1600px;
+    font-style: normal;
+    Width: 1600px;
+}
+/*логотип*/
+.WebStudio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.web{
+    color: var(--akcent-color);
+}
+
+/*верхняя линия навигация*/
+ul{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.nav-one .link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.nav-one .link:hover {
+    color: #2196F3;
+}
+
+.nav-one .link.curret {
+    color: #2196F3;
+}
+
+.banner{
+    background-color: var(--main-color);
+    height: 600px;
+}
+
+/*шапка*/
+
+.banner > h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 200px;
+}
+
+.button-order{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    justify-content: center; 
+}
+
+.text-order{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* особенности о нас*/
+.title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.about-us {
+    column-count: 4;
+}
+.about-us-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--font-dark);
+}
+li > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.team{
+    background-color: var(--font-light);
+    height: 648px;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--font-dark);
+}
+.position{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--font-middle);
+
+}
+
+.card{
+    width: 270px;
+    height: 368px;
+    background-color: white;
+}
+
+/*footer*/
+.footer{
+    background-color: var(--main-color);
+    height: 252px;
+}
+
+.studio-white{
+    color: #FFFFFF;
+}
+
+a[href="http://surl.li/pcxl"] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+a[href="mailto:info@devstydio.com"],
+a[href="tel:+380961111111"] {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6); 
+}
+.filters{
+
+}
+.filter{
+    background-color: var(--font-light);
+    color: var(--font-dark);
+}
+
+.filter:hover{
+    background-color: var(--akcent-color);
+    color: white;
+}
+
+.projects{
+    display: inline;
+}
+
+.projects a{
+    text-decoration: none;
+    color: var(--font-dark);
+
+}
+
+.projects h2  {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--font-dark);
+}
+
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--font-middle);
+}
